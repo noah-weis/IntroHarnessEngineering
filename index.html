@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LabWatch - Laboratory Monitoring Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>LabWatch Dashboard</h1>
+        <span class="status-badge">All Systems Nominal</span>
+    </header>
+
+    <main>
+        <section class="metrics">
+            <div class="card">
+                <h3>Temperature</h3>
+                <p class="value">23.4&deg;C</p>
+                <p class="label">Lab Room A</p>
+            </div>
+            <div class="card">
+                <h3>Pressure</h3>
+                <p class="value">1013 hPa</p>
+                <p class="label">Chamber B</p>
+            </div>
+            <div class="card card-highlight">
+                <h3>pH Level</h3>
+                <p class="value">7.02</p>
+                <p class="label">Solution Tank</p>
+            </div>
+            <div class="card">
+                <h3>Humidity</h3>
+                <p class="value">45%</p>
+                <p class="label">Storage Unit C</p>
+            </div>
+        </section>
+
+        <section class="readings">
+            <h2>Recent Readings</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Timestamp</th>
+                        <th>Sensor</th>
+                        <th>Value</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>14:32:01</td>
+                        <td>Temp-A1</td>
+                        <td>23.4&deg;C</td>
+                        <td class="status-ok">Normal</td>
+                    </tr>
+                    <tr>
+                        <td>14:31:45</td>
+                        <td>Press-B1</td>
+                        <td>1013 hPa</td>
+                        <td class="status-ok">Normal</td>
+                    </tr>
+                    <tr>
+                        <td>14:31:30</td>
+                        <td>pH-T1</td>
+                        <td>7.02</td>
+                        <td class="status-ok">Normal</td>
+                    </tr>
+                    <tr>
+                        <td>14:30:12</td>
+                        <td>Humid-C1</td>
+                        <td>45%</td>
+                        <td class="status-warn">Review</td>
+                    </tr>
+                    <tr>
+                        <td>14:29:58</td>
+                        <td>Temp-A2</td>
+                        <td>24.1&deg;C</td>
+                        <td class="status-ok">Normal</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="alerts">
+            <h2>Active Alerts</h2>
+            <div class="alert-item warning">
+                <span class="alert-icon">&#9888;</span>
+                <div class="alert-content">
+                    <strong>Humidity threshold approaching</strong>
+                    <p>Storage Unit C humidity at 45% — upper limit is 50%</p>
+                </div>
+            </div>
+            <div class="alert-item info">
+                <span class="alert-icon">&#8505;</span>
+                <div class="alert-content">
+                    <strong>Scheduled calibration</strong>
+                    <p>pH sensor T1 calibration due in 2 days</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>LabWatch v1.0 &mdash; Last updated: 14:32:01</p>
+    </footer>
+</body>
+</html>
