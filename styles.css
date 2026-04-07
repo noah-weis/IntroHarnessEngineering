@@ -13,10 +13,10 @@ body {
 
 header {
     background: #1a2732;
-    padding: 0.5rem 2rem 4rem;
+    padding: 0.5rem 2rem;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     border-bottom: 2px solid #2a9d8f;
 }
 
@@ -56,7 +56,7 @@ main {
 
 .card-highlight {
     border-color: #2a9d8f;
-    margin-top: 5rem;
+    margin-top: 0;
 }
 
 .card h3 {
@@ -84,7 +84,7 @@ main {
     border-radius: 10px;
     padding: 1.5rem;
     margin-bottom: 2rem;
-    margin-left: 12rem;
+    margin-left: 0;
     border: 1px solid #264653;
 }
 
@@ -147,7 +147,7 @@ td {
 
 .alert-item.info {
     border-left: 4px solid #457b9d;
-    padding: 1rem 1.5rem 5rem;
+    padding: 1rem 1.5rem;
 }
 
 .alert-icon {
@@ -161,8 +161,8 @@ td {
 }
 
 footer {
-    text-align: left;
-    padding: 1.5rem 1.5rem 1.5rem 14rem;
+    text-align: center;
+    padding: 1.5rem;
     color: #555;
     font-size: 0.8rem;
     border-top: 1px solid #1e2d3a;

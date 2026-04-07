@@ -1,1 +1,1 @@
-Take a screenshot using [@ YOUR SCREENSHOT TOOL HERE] of index.html, identify any visual alignment or spacing issues, and fix them.
+Take a screenshot using screenshot.py of index.html by running `source .venv/bin/activate && python3 screenshot.py index.html screenshot.png`, then view screenshot.png to identify any visual alignment or spacing issues, and fix them. After each fix, take a new screenshot to verify the issue is resolved. Repeat until the dashboard looks correct.
