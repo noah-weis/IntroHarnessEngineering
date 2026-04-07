@@ -1,1 +1,1 @@
-Take a screenshot using [@ YOUR SCREENSHOT TOOL HERE] of index.html, identify any visual alignment or spacing issues, and fix them.
+Take a screenshot using screenshot.swift of index.html, identify any visual alignment or spacing issues, and fix them.
