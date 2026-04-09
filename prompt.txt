@@ -1,1 +1,1 @@
-Take a screenshot using [@ YOUR SCREENSHOT TOOL HERE] of index.html, identify any visual alignment or spacing issues, and fix them.
+Run `./screenshot.sh` from the repo root to capture a screenshot of index.html as screenshot.png. View that image, identify any visual alignment or spacing issues, fix them in index.html and/or styles.css, then re-run the screenshot and verify. Repeat until the dashboard looks correct.
